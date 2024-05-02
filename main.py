@@ -30,8 +30,8 @@ play_field.fill(dark_grey)
 
 
 matrix = [['','',''],
-		  ['','',''],
-		  ['','','']]
+	  ['','',''],
+	  ['','','']]
 
 # prints the 2d array in the console
 def printData(matrix):
@@ -205,8 +205,8 @@ while running:
 			# replay button clicked
 			if mouse_on_button and game_over:
 				matrix = [['','',''],
-						  ['','',''],
-						  ['','','']]
+					  ['','',''],
+					  ['','','']]
 				game_over = False
 
 	# fonts
